@@ -68,8 +68,8 @@ class Mahasiswa extends REST_Controller {
         $data = [
             'student_name' => $this->post('student_name'),
             'nim' => $this->post('nim'),
-            'bithplace' => $this->post('bithplace'),
-            'bithdate' => $this->post('bithdate'),
+            'birthplace' => $this->post('birthplace'),
+            'birthdate' => $this->post('birthdate'),
             'majors' => $this->post('majors'),
             'address' => $this->post('address'),
         ];
@@ -94,8 +94,8 @@ class Mahasiswa extends REST_Controller {
         $data = [
             'student_name' => $this->post('student_name'),
             'nim' => $this->post('nim'),
-            'bithplace' => $this->post('bithplace'),
-            'bithdate' => $this->post('bithdate'),
+            'birthplace' => $this->post('birthplace'),
+            'birthdate' => $this->post('birthdate'),
             'majors' => $this->post('majors'),
             'address' => $this->post('address'),
         ];
